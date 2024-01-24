@@ -1,0 +1,1 @@
+C:\Users\Administrator\Desktop\rust\experiments\i2c\target\thumbv7em-none-eabihf\release\i2c: C:\Users\Administrator\Desktop\rust\experiments\i2c\build.rs C:\Users\Administrator\Desktop\rust\experiments\i2c\memory.x C:\Users\Administrator\Desktop\rust\experiments\i2c\src\main.rs C:\Users\Administrator\Desktop\rust\experiments\i2c\src\stm32_lib.rs

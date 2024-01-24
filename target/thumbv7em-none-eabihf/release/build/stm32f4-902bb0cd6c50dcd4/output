@@ -1,0 +1,3 @@
+cargo:rustc-link-search=C:\Users\Administrator\Desktop\rust\experiments\i2c\target\thumbv7em-none-eabihf\release\build\stm32f4-902bb0cd6c50dcd4\out
+cargo:rerun-if-changed=src/stm32f446/device.x
+cargo:rerun-if-changed=build.rs
