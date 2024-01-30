@@ -1,3 +1,116 @@
-{"message":"function `i2c_write_multi` is never used","code":{"code":"dead_code","explanation":null},"level":"warning","spans":[{"file_name":"src\\main.rs","byte_start":1771,"byte_end":1786,"line_start":53,"line_end":53,"column_start":4,"column_end":19,"is_primary":true,"text":[{"text":"fn i2c_write_multi(data: &mut Vec<u8>, size: &mut usize, i2c: &mut stm32f446::I2C1) {","highlight_start":4,"highlight_end":19}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"`#[warn(dead_code)]` on by default","code":null,"level":"note","spans":[],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[38;5;11mwarning\u001b[0m\u001b[0m\u001b[1m\u001b[38;5;15m: function `i2c_write_multi` is never used\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m--> \u001b[0m\u001b[0msrc\\main.rs:53:4\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;14m53\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mfn i2c_write_multi(data: &mut Vec<u8>, size: &mut usize, i2c: &mut stm32f446::I2C1) {\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m| \u001b[0m\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;11m^^^^^^^^^^^^^^^\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m= \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;15mnote\u001b[0m\u001b[0m: `#[warn(dead_code)]` on by default\u001b[0m\n\n"}
-{"message":"function `lcd_clear` is never used","code":{"code":"dead_code","explanation":null},"level":"warning","spans":[{"file_name":"src\\main.rs","byte_start":3460,"byte_end":3469,"line_start":105,"line_end":105,"column_start":4,"column_end":13,"is_primary":true,"text":[{"text":"fn lcd_clear(i2c: &mut stm32f446::I2C1) {","highlight_start":4,"highlight_end":13}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[38;5;11mwarning\u001b[0m\u001b[0m\u001b[1m\u001b[38;5;15m: function `lcd_clear` is never used\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m--> \u001b[0m\u001b[0msrc\\main.rs:105:4\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;14m105\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mfn lcd_clear(i2c: &mut stm32f446::I2C1) {\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m| \u001b[0m\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;11m^^^^^^^^^\u001b[0m\n\n"}
+{"message":"function `i2c_write_multi` is never used","code":{"code":"dead_code","explanation":null},"level":"warning","spans":[{"file_name":"src\\main.rs","byte_start":1766,"byte_end":1781,"line_start":53,"line_end":53,"column_start":4,"column_end":19,"is_primary":true,"text":[{"text":"fn i2c_write_multi(data: &mut Vec<u8>, size: &mut usize, i2c: &mut stm32f446::I2C1) {","highlight_start":4,"highlight_end":19}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"`#[warn(dead_code)]` on by default","code":null,"level":"note","spans":[],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[38;5;11mwarning\u001b[0m\u001b[0m\u001b[1m\u001b[38;5;15m: function `i2c_write_multi` is never used\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m--> \u001b[0m\u001b[0msrc\\main.rs:53:4\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;14m53\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mfn i2c_write_multi(data: &mut Vec<u8>, size: &mut usize, i2c: &mut stm32f446::I2C1) {\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m| \u001b[0m\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;11m^^^^^^^^^^^^^^^\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m= \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;15mnote\u001b[0m\u001b[0m: `#[warn(dead_code)]` on by default\u001b[0m\n\n"}
+{"message":"function `lcd_clear` is never used","code":{"code":"dead_code","explanation":null},"level":"warning","spans":[{"file_name":"src\\main.rs","byte_start":3455,"byte_end":3464,"line_start":105,"line_end":105,"column_start":4,"column_end":13,"is_primary":true,"text":[{"text":"fn lcd_clear(i2c: &mut stm32f446::I2C1) {","highlight_start":4,"highlight_end":13}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[38;5;11mwarning\u001b[0m\u001b[0m\u001b[1m\u001b[38;5;15m: function `lcd_clear` is never used\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m--> \u001b[0m\u001b[0msrc\\main.rs:105:4\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;14m105\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mfn lcd_clear(i2c: &mut stm32f446::I2C1) {\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;14m| \u001b[0m\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;11m^^^^^^^^^\u001b[0m\n\n"}
+thread 'copy LTO artifacts for 4pzzken6kkp1hn2r' panicked at /rustc/82e1608dfa6e0b5569232559e3d385fea5a93112\compiler\rustc_codegen_ssa\src\back\write.rs:917:45:
+no saved object file in work product
+stack backtrace:
+   0:     0x7ff8d3ff3053 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h99d8f55dc77ea58e
+   1:     0x7ff8d4025a3d - core::fmt::write::hde05c98aa8466c89
+   2:     0x7ff8d3fe9951 - <std::io::IoSlice as core::fmt::Debug>::fmt::hfbd96d963048182d
+   3:     0x7ff8d3ff2e5a - std::sys_common::backtrace::lock::h19b13d03fb733c4f
+   4:     0x7ff8d3ff6329 - std::panicking::default_hook::h809e3ce877795dde
+   5:     0x7ff8d3ff5feb - std::panicking::default_hook::h809e3ce877795dde
+   6:     0x7ff8c553f522 - <tracing_subscriber[6409740a17f48d06]::fmt::format::Writer>::write_fmt
+   7:     0x7ff8d3ff6903 - std::panicking::rust_panic_with_hook::hac29101b109c3744
+   8:     0x7ff8d3ff67a5 - <std::panicking::begin_panic_handler::StaticStrPayload as core::panic::PanicPayload>::take_box::h1529e0c3d6e161ce
+   9:     0x7ff8d3ff3949 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h99d8f55dc77ea58e
+  10:     0x7ff8d3ff64b4 - rust_begin_unwind
+  11:     0x7ff8d404ae57 - core::panicking::panic_fmt::ha2a0d31008962eb7
+  12:     0x7ff8d404ae12 - core::option::expect_failed::h8c0e5ffd56474b83
+  13:     0x7ff8c17afc9b - <rustc_codegen_llvm[eb66d98aff7de962]::debuginfo::CodegenUnitDebugContext as core[94f19dc4588870f6]::ops::drop::Drop>::drop
+  14:     0x7ff8c175b520 - <<rustc_mir_transform[29ac58ce2f161f8c]::const_prop::ConstPropMachine as rustc_const_eval[46da42dcc0bad855]::interpret::machine::Machine>::panic_nounwind::Zst as rustc_middle[adf162ff1c7ec31e]::mir::interpret::error::MachineStopType>::add_args
+  15:     0x7ff8c175c362 - <<rustc_mir_transform[29ac58ce2f161f8c]::const_prop::ConstPropMachine as rustc_const_eval[46da42dcc0bad855]::interpret::machine::Machine>::panic_nounwind::Zst as rustc_middle[adf162ff1c7ec31e]::mir::interpret::error::MachineStopType>::add_args
+  16:     0x7ff8d4008b6c - std::sys::windows::thread::Thread::new::h7b3ce3a09b163019
+  17:     0x7ff9321d7344 - BaseThreadInitThunk
+  18:     0x7ff9323826b1 - RtlUserThreadStart
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.75.0 (82e1608df 2023-12-21) running on x86_64-pc-windows-msvc
+
+note: compiler flags: --crate-type bin -C embed-bitcode=no -C debuginfo=2 -C incremental=[REDACTED] -C link-arg=--nmagic -C link-arg=-Tlink.x
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+end of query stack
+thread 'coordinator' panicked at compiler\rustc_middle\src\util\bug.rs:36:26:
+/rustc/82e1608dfa6e0b5569232559e3d385fea5a93112\compiler\rustc_codegen_ssa\src\back\write.rs:1590:29: worker thread panicked
+stack backtrace:
+   0:     0x7ff8d3ff3053 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h99d8f55dc77ea58e
+   1:     0x7ff8d4025a3d - core::fmt::write::hde05c98aa8466c89
+   2:     0x7ff8d3fe9951 - <std::io::IoSlice as core::fmt::Debug>::fmt::hfbd96d963048182d
+   3:     0x7ff8d3ff2e5a - std::sys_common::backtrace::lock::h19b13d03fb733c4f
+   4:     0x7ff8d3ff6329 - std::panicking::default_hook::h809e3ce877795dde
+   5:     0x7ff8d3ff5feb - std::panicking::default_hook::h809e3ce877795dde
+   6:     0x7ff8c553f522 - <tracing_subscriber[6409740a17f48d06]::fmt::format::Writer>::write_fmt
+   7:     0x7ff8d3ff6903 - std::panicking::rust_panic_with_hook::hac29101b109c3744
+   8:     0x7ff8c6876864 - <rustc_middle[adf162ff1c7ec31e]::mir::interpret::allocation::ConstAllocation as rustc_middle[adf162ff1c7ec31e]::ty::context::Lift>::lift_to_tcx
+   9:     0x7ff8c6874949 - <rustc_middle[adf162ff1c7ec31e]::mir::interpret::allocation::ConstAllocation as rustc_middle[adf162ff1c7ec31e]::ty::context::Lift>::lift_to_tcx
+  10:     0x7ff8c67aaad3 - ar_archive_writer[d46d07e9296ae6a3]::archive_writer::write_symbols
+  11:     0x7ff8c687cece - rustc_middle[adf162ff1c7ec31e]::util::bug::bug_fmt
+  12:     0x7ff8c687cdbd - <rustc_middle[adf162ff1c7ec31e]::ty::error::TypeError>::to_string
+  13:     0x7ff8c687cd8a - <rustc_middle[adf162ff1c7ec31e]::ty::error::TypeError>::to_string
+  14:     0x7ff8c687cdf2 - rustc_middle[adf162ff1c7ec31e]::util::bug::bug_fmt
+  15:     0x7ff8c45a6dde - rustc_interface[845e99c2fcb4bb36]::proc_macro_decls::proc_macro_decls_static
+  16:     0x7ff8c175c830 - <<rustc_mir_transform[29ac58ce2f161f8c]::const_prop::ConstPropMachine as rustc_const_eval[46da42dcc0bad855]::interpret::machine::Machine>::panic_nounwind::Zst as rustc_middle[adf162ff1c7ec31e]::mir::interpret::error::MachineStopType>::add_args
+  17:     0x7ff8d4008b6c - std::sys::windows::thread::Thread::new::h7b3ce3a09b163019
+  18:     0x7ff9321d7344 - BaseThreadInitThunk
+  19:     0x7ff9323826b1 - RtlUserThreadStart
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.75.0 (82e1608df 2023-12-21) running on x86_64-pc-windows-msvc
+
+note: compiler flags: --crate-type bin -C embed-bitcode=no -C debuginfo=2 -C incremental=[REDACTED] -C link-arg=--nmagic -C link-arg=-Tlink.x
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+end of query stack
+thread 'rustc' panicked at compiler\rustc_middle\src\util\bug.rs:36:26:
+/rustc/82e1608dfa6e0b5569232559e3d385fea5a93112\compiler\rustc_codegen_ssa\src\back\write.rs:1964:17: panic during codegen/LLVM phase
+stack backtrace:
+   0:     0x7ff8d3ff3053 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h99d8f55dc77ea58e
+   1:     0x7ff8d4025a3d - core::fmt::write::hde05c98aa8466c89
+   2:     0x7ff8d3fe9951 - <std::io::IoSlice as core::fmt::Debug>::fmt::hfbd96d963048182d
+   3:     0x7ff8d3ff2e5a - std::sys_common::backtrace::lock::h19b13d03fb733c4f
+   4:     0x7ff8d3ff6329 - std::panicking::default_hook::h809e3ce877795dde
+   5:     0x7ff8d3ff5feb - std::panicking::default_hook::h809e3ce877795dde
+   6:     0x7ff8c553f522 - <tracing_subscriber[6409740a17f48d06]::fmt::format::Writer>::write_fmt
+   7:     0x7ff8d3ff6903 - std::panicking::rust_panic_with_hook::hac29101b109c3744
+   8:     0x7ff8c6876864 - <rustc_middle[adf162ff1c7ec31e]::mir::interpret::allocation::ConstAllocation as rustc_middle[adf162ff1c7ec31e]::ty::context::Lift>::lift_to_tcx
+   9:     0x7ff8c6874949 - <rustc_middle[adf162ff1c7ec31e]::mir::interpret::allocation::ConstAllocation as rustc_middle[adf162ff1c7ec31e]::ty::context::Lift>::lift_to_tcx
+  10:     0x7ff8c67aaad3 - ar_archive_writer[d46d07e9296ae6a3]::archive_writer::write_symbols
+  11:     0x7ff8c687cece - rustc_middle[adf162ff1c7ec31e]::util::bug::bug_fmt
+  12:     0x7ff8c687cdbd - <rustc_middle[adf162ff1c7ec31e]::ty::error::TypeError>::to_string
+  13:     0x7ff8c687cd8a - <rustc_middle[adf162ff1c7ec31e]::ty::error::TypeError>::to_string
+  14:     0x7ff8c687cdf2 - rustc_middle[adf162ff1c7ec31e]::util::bug::bug_fmt
+  15:     0x7ff8c17b2081 - <rustc_codegen_llvm[eb66d98aff7de962]::debuginfo::CodegenUnitDebugContext as core[94f19dc4588870f6]::ops::drop::Drop>::drop
+  16:     0x7ff8c17696f6 - <rustc_codegen_llvm[eb66d98aff7de962]::LlvmCodegenBackend as rustc_codegen_ssa[982fe69def522a2a]::traits::backend::CodegenBackend>::join_codegen
+  17:     0x7ff8c17288c3 - <rustc_interface[845e99c2fcb4bb36]::queries::Linker>::link
+  18:     0x7ff8c16ed962 - rustc_driver_impl[b4ac4ed7e8bb44fd]::args::arg_expand_all
+  19:     0x7ff8c16df4bb - rustc_driver_impl[b4ac4ed7e8bb44fd]::args::arg_expand_all
+  20:     0x7ff8c16ef101 - rustc_driver_impl[b4ac4ed7e8bb44fd]::args::arg_expand_all
+  21:     0x7ff8c16ea6df - rustc_driver_impl[b4ac4ed7e8bb44fd]::args::arg_expand_all
+  22:     0x7ff8c16e2861 - rustc_driver_impl[b4ac4ed7e8bb44fd]::args::arg_expand_all
+  23:     0x7ff8d4008b6c - std::sys::windows::thread::Thread::new::h7b3ce3a09b163019
+  24:     0x7ff9321d7344 - BaseThreadInitThunk
+  25:     0x7ff9323826b1 - RtlUserThreadStart
+
+error: the compiler unexpectedly panicked. this is a bug.
+
+note: we would appreciate a bug report: https://github.com/rust-lang/rust/issues/new?labels=C-bug%2C+I-ICE%2C+T-compiler&template=ice.md
+
+note: rustc 1.75.0 (82e1608df 2023-12-21) running on x86_64-pc-windows-msvc
+
+note: compiler flags: --crate-type bin -C embed-bitcode=no -C debuginfo=2 -C incremental=[REDACTED] -C link-arg=--nmagic -C link-arg=-Tlink.x
+
+note: some of the compiler flags provided by cargo are hidden
+
+query stack during panic:
+end of query stack
 {"message":"2 warnings emitted","code":null,"level":"warning","spans":[],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[38;5;11mwarning\u001b[0m\u001b[0m\u001b[1m\u001b[38;5;15m: 2 warnings emitted\u001b[0m\n\n"}

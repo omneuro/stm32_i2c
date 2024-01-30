@@ -19,7 +19,7 @@ use stm32f4::stm32f446;
 #[global_allocator]
 static ALLOCATOR: emballoc::Allocator<4096> = emballoc::Allocator::new();
 
-const SLAVE_ADDRESS: u8 = 0x4E >> 1;
+const SLAVE_ADDRESS: u8 = 0x4E;
 
 pub fn i2c_start(i2c: &mut stm32f446::I2C1) {
     //send the Start condition
@@ -203,7 +203,7 @@ fn main() -> ! {
 
     // Program the peripheral input clock in I2c_cr2 register in order to generate correct timings
     i2c.cr2.write(|w| unsafe { w.freq().bits(0b101101) }); //setting periphercal input clock fequency to 45mhz (current max value of APB)
-    i2c.cr2.modify(|_r, w| w.itevten().enabled());
+    i2c.cr2.modify(|_r, w| w.itevten().enabled()); //enable even interrupts
 
     //configure the clock control registers
     i2c.ccr.write(|w| w.f_s().standard());
